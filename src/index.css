@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav li a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item p {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.incomplete {
+  color: green;
+  text-decoration: none;
+}
+
+.edit {
+  cursor: pointer;
+}
